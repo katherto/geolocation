@@ -6,8 +6,25 @@
   <title>Geolocation Exploration</title>
 </head>
 <body>
-  <button id="find-me">Calculate my Distance to Jupiter</button><br/>
-  <p id="status"></p>
+  <!-- <button id="find-me">Calculate my Distance to Jupiter</button><br/> -->
+  <!-- <p id="status"></p> -->
+  <div id="app">
+    <div v-if="errorStr">
+      Sorry, but the following error
+      occurred: {{errorStr}}
+    </div>
+    
+    <div v-if="gettingLocation">
+      <i>Getting your location...</i>
+    </div>
+    
+    <div v-if="userMark.position.lat">
+      <p>Your location data is {{ userMark.position.lat }}, {{ userMark.position.lng}}</p>
+      <p v-if="distance">You are {{ distance.toFixed(2) }} miles away from Jupiter ({{ jupiter.location }})</p>
+      <input type="button" value="test" @click="haversineDistance">
+    </div>
+  </div>
+  <script src="https://unpkg.com/vue"></script>
   <script src="main.js"></script>
 </body>
 </html>
