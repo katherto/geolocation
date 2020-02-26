@@ -45,7 +45,7 @@ new Vue({
       var difflon = (this.userMark.position.lng-this.jupiter.position.lng) * (Math.PI/180); // Radian difference (longitudes)
     
       var d = 2 * R * Math.asin(Math.sqrt(Math.sin(difflat/2)*Math.sin(difflat/2)+Math.cos(rlat1)*Math.cos(rlat2)*Math.sin(difflon/2)*Math.sin(difflon/2)));
-      this.distance = d;
+      this.distance = d.toFixed(2);
     }
   }
 });
