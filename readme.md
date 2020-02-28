@@ -1,4 +1,4 @@
-#Geolocation Demo in Vue.js
+# Geolocation Demo in Vue.js
 
 A demo for our honors project at JCCC.  This demonstrates the use of Geolocation within a Vue.js app.  You can see a working version at:
 
