@@ -36,7 +36,7 @@ new Vue({
     })
   },
   methods: {
-    // Haversine formula for calculating distance between two lat/long coordinates
+    // Haversine formula for calculating distance between two lat/long coordinates in decimal units
     haversineDistance() {
       var R = 3958.8; // Radius of the Earth in miles, 6371.0710 Radius of the Earth in Kilometers
       var rlat1 = this.jupiter.position.lat * (Math.PI/180); // Convert degrees to radians
