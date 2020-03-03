@@ -18,7 +18,7 @@
     
     <div v-if="userMark.position.lat">
       <p>Your location data is {{ userMark.position.lat }}, {{ userMark.position.lng}}</p>
-      <p v-if="distance">You are {{ distance.toFixed(2) }} miles away from Jupiter ({{ jupiter.location }})</p>
+      <p v-if="distance">You are {{ distance }} miles away from Jupiter ({{ jupiter.location }})</p>
       <input type="button" value="test" @click="haversineDistance">
     </div>
   </div>
