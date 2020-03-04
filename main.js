@@ -1,3 +1,8 @@
+/*  Links
+    https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+    https://www.raymondcamden.com/2019/09/01/using-geolocation-with-vuejs
+*/
+
 new Vue({
   el: '#app',
   data: {
