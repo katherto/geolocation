@@ -13,6 +13,41 @@ new Vue({
         }
       },
       {
+        location: 'Sar-Ko-Par Trails Park',
+        position: {
+          lat: 38.581312,
+          lng: -94.453090, 
+        }
+      },
+      {
+        location: 'Advanced Laser Tag',
+        position: {
+          lat: 38.53706,
+          lng: -94.465159, 
+        }
+      },
+      {
+        location: 'Olathe Lanes East Bowling Center',
+        position: {
+          lat: 38.53610,
+          lng: -94.47728, 
+        }
+      },
+      {
+        location: 'Johnson County Library Central Resource',
+        position: {
+          lat: 38.581196,
+          lng: -94.415812, 
+        }
+      },
+      {
+        location: 'Brewbakers Bar and Grill',
+        position: {
+          lat: 38.572503,
+          lng: -94.465027, 
+        }
+      },
+      {
         location: 'Johnny\'s Tavern',
         position: {
           lat: 38.562496,
@@ -28,6 +63,69 @@ new Vue({
           }
         },
         {
+          location: 'Forest View Elementary School',
+          position: {
+            lat: 38.54023,
+            lng: -94.513198,
+          }
+        },
+        {
+          location: 'Olathe West High School',
+          position: {
+            lat: 38.53611,
+            lng: -94.511734,
+          }
+        },
+        {
+          location: 'A Place in Time Antiques and Flea Market',
+          position: {
+            lat: 38.52486,
+            lng: -94.502190,
+          }
+        },
+        {
+          location: 'Johnson County Archives',
+          position: {
+            lat: 38.502666,
+            lng: -94.483144,
+          }
+        },
+        {
+          location: 'Heritage Park Disc Golf Course',
+          position: {
+            lat: 38.493320,
+            lng: -94.444995,
+          }
+        },
+        {
+          location: 'Leawood City Park',
+          position: {
+            lat: 38.555387,
+            lng: -94.365820,
+          }
+        },
+        {
+          location: 'Deanna Rose Farmstead',
+          position: {
+            lat: 38.523967,
+            lng: -94.421205,
+          }
+        },
+        {
+          location: 'Porter Park',
+          position: {
+            lat: 38.594444,
+            lng: -94.382237,
+          }
+        },
+        {
+          location: 'Mohawk Park',
+          position: {
+            lat: 39.02878,
+            lng: -94.392514,
+          }
+        },
+        {
         location: 'Honeywell Aerospace',
         position: {
           lat: 38.561806,
@@ -40,6 +138,13 @@ new Vue({
         position: {
           lat: 39.33588,
           lng: -94.42957,
+          }
+        },
+        {
+        location: 'National Agriculture Center',
+        position: {
+          lat: 39.62906,
+          lng: -94.522745,
         }
     }],
 
